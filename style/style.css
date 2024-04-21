@@ -1,0 +1,30 @@
+#logo{
+    height: 40px;
+    margin-left: 5px;
+}
+#navbarSupportedContent{
+    margin-right: 20px;
+}
+.carousel-item{
+    height: 300px;
+}
+.overlay{
+    border: 1px solid white;
+    background-color: white;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(116, 116, 116);
+    opacity: 0.8;
+    border-radius: 5px;    
+}
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.error-message {
+    color: red;
+}
+
