@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="style/style.css" />
 </head>
 <body class="login-body">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img id="logo" src="images/logo.svg" alt="logo"
@@ -52,25 +52,40 @@
           </div>
         </div>
       </nav>
-      <div class="container ">
-        <div class="form-container text-light ">
-            <h2 class="text-center">Login</h2>
+      <div class="container m-5">
+        <div class="form-container text-dark ">
+            <h2 class="text-center login-heading">Login</h2>
+            <br>
             <form id="login-form">
                 <div class="form-group">
-                    <label for="login-email">Email address</label>
+                    <label for="login-email">Email <span class="star">*</span></label>
                     <input type="email" class="form-control" id="login-email" placeholder="Enter email">
                     <span class="error-message" id="login-email-error"></span>
                 </div>
+                <br>
                 <div class="form-group">
-                    <label for="login-password">Password</label>
+                    <label for="login-password">Password <span class="star">*</span></label>
                     <input type="password" class="form-control" id="login-password" placeholder="Password">
                     <span class="error-message" id="login-password-error"></span>
                 </div>
                 <br>
                 <button type="submit" class="btn btn-primary w-100">Login</button>
+                <br>
+                <a href="#">Forgot Password?</a>
             </form>
         </div>
     </div>
+    <footer class="bg-secondary-subtle text-dark" id="login-footer">
+      <div class="container">
+          
+              <div class="text-center">
+                  <h5>The ICT Library</h5>
+                  <p>
+                    © Literary Classics of the ICT Academy, Inc.
+                    Site by Celerate</p>
+              </div>
+      </div>
+    </footer>
     <script src="script/login.js"></script>
 </body>
 </html>

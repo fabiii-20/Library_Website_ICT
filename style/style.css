@@ -40,14 +40,6 @@
 .form-container {
     max-width: 350px;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 60px;
-    padding-bottom: 80px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 100px;
-    background-color: rgba(100, 100, 100, 0.5);
 }
 .form-container-s {
     max-width: 500px;
@@ -66,8 +58,7 @@
     color: red;
 }
 .login-body{
-    background-image: url(../images/bg-login.jpg);
-    background-size: cover;
+   
 }
 .signup-body{
     background-image: url(../images/bg-signup.jpg);
@@ -133,4 +124,15 @@
 .lib-head{
     color: plum;
     font-weight: bold;
+}
+.login-heading{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.star{
+    color: red;
+}
+#login-footer{
+    margin-bottom: 0;
+    padding: 37px;
 }
