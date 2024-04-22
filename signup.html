@@ -17,11 +17,11 @@
     ></script>
     <link rel="stylesheet" href="style/style.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+  <body class="signup-body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><img id="logo" src="images/logo.png" alt="logo"
+          ><img id="logo" src="images/logo.svg" alt="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -54,8 +54,8 @@
     </nav>
 
     <div class="container">
-      <div class="form-container">
-        <h2>Signup</h2>
+      <div class="form-container-s text-light">
+        <h2 class="text-center">Signup</h2>
         <form id="signup-form">
             <div class="form-group">
                 <label for="signup-name">Name</label>
@@ -122,14 +122,14 @@
               name="address"
               class="form-control"
               id="signup-lib"
-              cols="30"
-              rows="10"
+              cols="20"
+              rows="4"
               placeholder="Enter your nearest library address"
             ></textarea>
             <span class="error-message" id="signup-lib-error"></span>
           </div>
           <div class="form-group">
-            <label for="signup-password">Password</label>
+            <label for="signup-password">Create Password</label>
             <input
               type="password"
               class="form-control"
@@ -139,7 +139,7 @@
             <span class="error-message" id="signup-password-error"></span>
           </div>
           <br />
-          <button type="submit" class="btn btn-primary">Signup</button>
+          <button type="submit" class="btn btn-primary w-100">Signup</button>
         </form>
       </div>
     </div>

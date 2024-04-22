@@ -17,11 +17,11 @@
     ></script>
     <link rel="stylesheet" href="style/style.css" />
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+<body class="login-body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
-            ><img id="logo" src="images/logo.png" alt="logo"
+            ><img id="logo" src="images/logo.svg" alt="logo"
           /></a>
           <button
             class="navbar-toggler"
@@ -52,9 +52,9 @@
           </div>
         </div>
       </nav>
-      <div class="container">
-        <div class="form-container">
-            <h2>Login</h2>
+      <div class="container ">
+        <div class="form-container text-light ">
+            <h2 class="text-center">Login</h2>
             <form id="login-form">
                 <div class="form-group">
                     <label for="login-email">Email address</label>
@@ -67,7 +67,7 @@
                     <span class="error-message" id="login-password-error"></span>
                 </div>
                 <br>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary w-100">Login</button>
             </form>
         </div>
     </div>

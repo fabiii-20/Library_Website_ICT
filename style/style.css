@@ -14,17 +14,63 @@
     font-family:'Times New Roman', Times, serif;
     color: rgb(116, 116, 116);
     opacity: 0.8;
+    transition: opacity 0.5s ease;
     border-radius: 5px;    
 }
+.overlay:hover {
+    opacity: 1;
+}
 .form-container {
-    max-width: 400px;
+    max-width: 350px;
     margin: auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.form-container-s {
+    max-width: 500px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: rgba(236, 193, 82, 0.5);
 }
 .error-message {
     color: red;
 }
-
+.login-body{
+    background-image: url(../images/bg-login.jpg);
+    background-size: cover;
+}
+.signup-body{
+    background-image: url(../images/bg-signup.jpg);
+    background-size: cover;
+}
+/* Keyframe animation */
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animated-heading{
+    font-weight: bold;
+    color: gray;
+}
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+}
