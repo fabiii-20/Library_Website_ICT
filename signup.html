@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body class="signup-body">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img id="logo" src="images/logo.svg" alt="logo"
@@ -54,11 +54,11 @@
     </nav>
 
     <div class="container">
-      <div class="form-container-s text-light">
-        <h2 class="text-center">Signup</h2>
+      <div class="form-container-s text-dark">
+        <h2 class="text-center login-heading">Signup</h2>
         <form id="signup-form">
             <div class="form-group">
-                <label for="signup-name">Name</label>
+                <label for="signup-name">Name <span class="star">*</span></label>
                 <input
                   type="text"
                   class="form-control"
@@ -67,8 +67,9 @@
                   placeholder="Enter email"
                 />
                 <span class="error-message" id="signup-name-error"></span>
+                <br>
           <div class="form-group">
-            <label for="signup-email">Email address</label>
+            <label for="signup-email">Email <span class="star">*</span></label>
             <input
               type="email"
               class="form-control"
@@ -81,13 +82,15 @@
             >
             <span class="error-message" id="signup-email-error"></span>
           </div>
+          <br>
           <div class="form-group">
-            <label for="signup-dob">Date of Birth</label>
+            <label for="signup-dob">Date of Birth <span class="star">*</span></label>
             <input type="date" class="form-control" id="signup-dob" />
             <span class="error-message" id="signup-dob-error"></span>
           </div>
+          <br>
           <div class="form-group">
-            <label for="signup-phone">Phone Number</label>
+            <label for="signup-phone">Phone Number<span class="star">*</span></label>
             <input
               type="text"
               class="form-control"
@@ -96,18 +99,9 @@
             />
             <span class="error-message" id="signup-phone-error"></span>
           </div>
+          <br>
           <div class="form-group">
-            <label for="signup-city">City</label>
-            <input
-              type="text"
-              class="form-control"
-              id="signup-city"
-              placeholder="Enter your city"
-            />
-            <span class="error-message" id="signup-city-error"></span>
-          </div>
-          <div class="form-group">
-            <label for="signup-zip">Zip</label>
+            <label for="signup-zip">Zip<span class="star">*</span></label>
             <input
               type="number"
               class="form-control"
@@ -116,6 +110,7 @@
             />
             <span class="error-message" id="signup-zip-error"></span>
           </div>
+          <br>
           <div class="form-group">
             <label for="signup-zip">Nearest Library Details</label>
             <textarea
@@ -128,8 +123,9 @@
             ></textarea>
             <span class="error-message" id="signup-lib-error"></span>
           </div>
+          <br>
           <div class="form-group">
-            <label for="signup-password">Create Password</label>
+            <label for="signup-password">Create Password<span class="star">*</span></label>
             <input
               type="password"
               class="form-control"
@@ -143,6 +139,18 @@
         </form>
       </div>
     </div>
+    <footer class="bg-light text-dark" >
+      <div class="row">
+      <div class="col-md-12 p-5" id="sign-footer">
+              <div class="text-center">
+                  <h5>The ICT Library</h5>
+                  <p>
+                    © Literary Classics of the ICT Academy, Inc.
+                    Site by Celerate</p>
+              </div>
+    </div>
+    </div>
+    </footer>
     <script src="script/signup.js"></script>
   </body>
 </html>

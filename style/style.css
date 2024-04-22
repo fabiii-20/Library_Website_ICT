@@ -41,30 +41,20 @@
     max-width: 350px;
     margin: auto;
 }
-.form-container-s {
-    max-width: 500px;
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 80px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    background-color: rgba(236, 193, 82, 0.5);
-}
-.error-message {
-    color: red;
-}
-.login-body{
-   
-}
+
 .signup-body{
     background-image: url(../images/bg-signup.jpg);
     background-size: cover;
 }
-/* Keyframe animation */
+.form-container-s {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.error-message {
+    color: red;
+}
 @keyframes appear {
     from {
         opacity: 0;
@@ -134,5 +124,5 @@
 }
 #login-footer{
     margin-bottom: 0;
-    padding: 37px;
+    padding: 40px;
 }
