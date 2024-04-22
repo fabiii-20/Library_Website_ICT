@@ -90,7 +90,10 @@
 .wr-head{
     color: palevioletred;
 }
-
+/* .arundhati{
+    height: 190px;
+   overflow: hidden;
+} */
 .line{
     border: 3px solid rgb(211, 211, 55);
     margin-left: 60px;
