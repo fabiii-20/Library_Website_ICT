@@ -2,6 +2,23 @@
     height: 40px;
     margin-left: 5px;
 }
+#logo-1{
+    height: 100px;
+    display: block;
+    margin: auto;   
+}
+.logo-hd{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(198, 198, 198);
+}
+#lgnm{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    background-color:rgb(249, 232, 235);
+}
 #navbarSupportedContent{
     margin-right: 20px;
 }
@@ -73,4 +90,47 @@
 }
 .card-text{
     font-family: 'Times New Roman', Times, serif;
+}
+.hover-text{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.hover-text:hover{
+    color: orangered;
+}
+.writer-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.link-writer{
+    text-decoration: none;
+    color: palevioletred;
+}
+.wr-head{
+    color: palevioletred;
+}
+#Arundhati{
+    height: 190px;
+   overflow: hidden;
+}
+.line{
+    border: 3px solid rgb(211, 211, 55);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.topic{
+    background-color: beige;
+}
+.topic-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.link-lib{
+    color: black;
+}
+.lib-head{
+    color: plum;
+    font-weight: bold;
 }
